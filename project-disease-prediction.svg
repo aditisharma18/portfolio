@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="100%">
+    <defs>
+        <linearGradient id="ml-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#0f172a"/>
+            <stop offset="50%" stop-color="#0284c7"/>
+            <stop offset="100%" stop-color="#1e1b4b"/>
+        </linearGradient>
+    </defs>
+
+    <rect width="600" height="340" rx="14" fill="url(#ml-bg)"/>
+
+    <!-- Neural Network Node Graph IT Figure -->
+    <!-- Input Feature Layer -->
+    <rect x="50" y="65" width="110" height="190" rx="10" fill="rgba(15, 23, 42, 0.85)" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="105" y="88" fill="#38bdf8" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="700" text-anchor="middle">SYMPTOMS</text>
+    
+    <circle cx="105" cy="115" r="10" fill="#38bdf8"/>
+    <circle cx="105" cy="160" r="10" fill="#38bdf8"/>
+    <circle cx="105" cy="205" r="10" fill="#38bdf8"/>
+
+    <!-- Hidden Deep Learning Layer -->
+    <rect x="235" y="50" width="130" height="220" rx="10" fill="rgba(15, 23, 42, 0.85)" stroke="#818cf8" stroke-width="1.5"/>
+    <text x="300" y="73" fill="#818cf8" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="700" text-anchor="middle">DENSE LAYERS</text>
+
+    <circle cx="300" cy="105" r="12" fill="#818cf8"/>
+    <circle cx="300" cy="160" r="12" fill="#818cf8"/>
+    <circle cx="300" cy="215" r="12" fill="#818cf8"/>
+
+    <!-- Diagnostic Prediction Node -->
+    <rect x="440" y="85" width="110" height="150" rx="10" fill="rgba(15, 23, 42, 0.85)" stroke="#c084fc" stroke-width="1.5"/>
+    <text x="495" y="108" fill="#c084fc" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="700" text-anchor="middle">DIAGNOSIS</text>
+    <circle cx="495" cy="160" r="22" fill="#c084fc"/>
+    <text x="495" y="165" fill="#ffffff" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="800" text-anchor="middle">98%</text>
+
+    <!-- Neural Connections -->
+    <line x1="115" y1="115" x2="288" y2="105" stroke="rgba(56, 189, 248, 0.6)" stroke-width="2"/>
+    <line x1="115" y1="160" x2="288" y2="160" stroke="rgba(56, 189, 248, 0.6)" stroke-width="2"/>
+    <line x1="115" y1="205" x2="288" y2="215" stroke="rgba(56, 189, 248, 0.6)" stroke-width="2"/>
+
+    <line x1="312" y1="105" x2="473" y2="160" stroke="rgba(192, 132, 252, 0.7)" stroke-width="2"/>
+    <line x1="312" y1="160" x2="473" y2="160" stroke="rgba(192, 132, 252, 0.7)" stroke-width="2"/>
+    <line x1="312" y1="215" x2="473" y2="160" stroke="rgba(192, 132, 252, 0.7)" stroke-width="2"/>
+
+    <!-- Bottom Banner -->
+    <rect x="150" y="280" width="300" height="38" rx="19" fill="rgba(15, 23, 42, 0.95)" stroke="#38bdf8" stroke-width="2"/>
+    <text x="300" y="304" fill="#e0f2fe" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700" text-anchor="middle">PYTHON STREAMLIT ML MODEL FIGURE</text>
+</svg>
